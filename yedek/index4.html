@@ -49,45 +49,52 @@
     </header>
 
     <!-- Portfolio Section -->
-<section class="portfolio-section my-5">
-    <div class="container">
-        <h2 class="text-center text-uppercase">Portfolio</h2>
-        <hr class="divider my-4">
-        
-        <!-- Project List -->
-        <div class="project-list">
-            <!-- Project 1 -->
-            <div class="project-item d-flex align-items-center mb-4">
-                <img src="path-to-your-logo1.png" alt="Project Logo 1" class="project-logo">
-                <div class="project-info ms-4">
-                    <h3 class="project-title">Project Title 1</h3>
-                    <p class="project-description">Brief description of project 1 explaining its features and functionality.</p>
-                </div>
+    <section class="page-section portfolio" id="portfolio">
+        <div class="container">
+            <!-- Portfolio Section Heading -->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+
+            <!-- Icon Divider -->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
             </div>
 
-            <!-- Project 2 -->
-            <div class="project-item d-flex align-items-center mb-4">
-                <img src="path-to-your-logo2.png" alt="Project Logo 2" class="project-logo">
-                <div class="project-info ms-4">
-                    <h3 class="project-title">Project Title 2</h3>
-                    <p class="project-description">Brief description of project 2 explaining its features and functionality.</p>
+            <!-- Portfolio Grid Items -->
+            <div class="row justify-content-center">
+                <!-- Portfolio Item 1 -->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="startbootstrap-freelancer-gh-pages/assets/img/portfolio/cabin.png" alt="Project 1">
+                    </div>
                 </div>
-            </div>
 
-            <!-- Repeat for the remaining projects (up to Project 6) -->
-            <div class="project-item d-flex align-items-center mb-4">
-                <img src="path-to-your-logo3.png" alt="Project Logo 3" class="project-logo">
-                <div class="project-info ms-4">
-                    <h3 class="project-title">Project Title 3</h3>
-                    <p class="project-description">Brief description of project 3 explaining its features and functionality.</p>
+                <!-- Portfolio Item 2 -->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="startbootstrap-freelancer-gh-pages/assets/img/portfolio/cake.png" alt="Project 2">
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 3 -->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="startbootstrap-freelancer-gh-pages/assets/img/portfolio/circus.png" alt="Project 3">
+                    </div>
                 </div>
             </div>
-            
-            <!-- Continue for projects 4, 5, and 6... -->
         </div>
-    </div>
-</section>
-
+    </section>
 
     <!-- Bootstrap JS Bundle -->
     <script src="startbootstrap-freelancer-gh-pages/js/scripts.js"></script>
