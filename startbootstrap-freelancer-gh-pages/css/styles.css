@@ -103,6 +103,11 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+.portfolio-logo {
+    width: 50px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 15px; /* Space between logo and project details */
+}
 
 hr {
   margin: 1rem 0;
