@@ -10976,6 +10976,7 @@ html {
 
 .masthead {
   background-color: #3498db; /* Replace with your desired color code */
+  background-size: cover; /* Makes sure the image covers the entire masthead */
   min-height: 100vh; /* Ensures the masthead fills the viewport height */
   display: flex;
   align-items: center;
