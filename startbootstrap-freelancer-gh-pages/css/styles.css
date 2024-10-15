@@ -489,7 +489,7 @@ progress {
 }
 
 .portfolio-logo {
-    width: 5px; /* Adjust the size as needed */
+    width: 25px; /* Adjust the size as needed */
     height: auto; /* Maintain aspect ratio */
     margin-right: 15px; /* Space between logo and project details */
 }
