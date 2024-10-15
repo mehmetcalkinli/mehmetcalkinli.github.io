@@ -10976,13 +10976,12 @@ html {
 
 .masthead {
   background: url('startbootstrap-freelancer-gh-pages/assets/img/f1.png') no-repeat center center;
-  background-size: cover; /* This makes sure the image covers the entire section */
-  min-height: 100vh; /* Make the masthead fill the viewport height */
+  background-size: cover; /* Makes sure the image covers the entire masthead */
+  min-height: 100vh; /* Ensures the masthead fills the viewport height */
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: white;
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
 }
