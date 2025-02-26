@@ -12,15 +12,17 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+            <a class="navbar-brand" href="#page-top">Your Name</a>
             <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#experience">Experience</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#projects">Projects</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#blog">Blog</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -28,78 +30,149 @@
     </nav>
 
     <!-- Masthead -->
-<header class="masthead text-white text-center" style="background-image: url('startbootstrap-freelancer-gh-pages/assets/img/f1.png')>
-    <div class="container d-flex align-items-center flex-column" style="background-image: url('startbootstrap-freelancer-gh-pages/assets/img/f1.png')>
-        <!-- Masthead Avatar Image -->
-        <img class="masthead-avatar mb-5" src="startbootstrap-freelancer-gh-pages/assets/img/avatar.png" alt="...">
-        
-        <!-- Masthead Heading -->
-        <h1 class="masthead-heading text-uppercase mb-0">Start Bootstrap</h1>
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Avatar Image -->
+            <img class="masthead-avatar rounded-circle mb-5" src="path/to/your-photo.jpg" alt="Your Name">
+            
+            <!-- Masthead Heading -->
+            <h1 class="masthead-heading text-uppercase mb-0">Your Name</h1>
 
-        <!-- Icon Divider -->
-        <div class="divider-custom divider-light">
-            <div class="divider-custom-line"></div>
-            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-            <div class="divider-custom-line"></div>
+            <!-- Icon Divider -->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+
+            <!-- Masthead Subheading -->
+            <p class="masthead-subheading font-weight-light mb-0">Software Engineer | Problem Solver | Tech Enthusiast</p>
         </div>
+    </header>
 
-        <!-- Masthead Subheading -->
-        <p class="masthead-subheading font-weight-light mb-0">Coding fast</p>
-    </div>
-</header>
+    <!-- About Section -->
+    <section class="page-section bg-light" id="about">
+        <div class="container">
+            <h2 class="text-center text-uppercase text-secondary mb-0">About Me</h2>
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-user"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <p class="lead">
+                        [Your compelling bio here - Write about your background, passion for technology, 
+                        and what drives you as a developer. Include your key skills and what you're currently focusing on.]
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!-- Portfolio Section -->
-<section id="portfolio" class="py-5 bg-light">
-    <div class="container">
-        <h2 class="text-center">Portfolio</h2>
-        <ul class="list-unstyled">
-            <li class="d-flex align-items-start mb-4">
-                <img src="startbootstrap-freelancer-gh-pages/assets/img/halkbank.png" alt="Halkbank Logo" class="portfolio-logo">
-                <div>
-                    <h3>Inventory Management System Transformation</h3>
-                    <p>Transformed the inventory website into a Windows Forms application, contributing to core banking software development.</p>
+    <!-- Experience Section -->
+    <section class="page-section" id="experience">
+        <div class="container">
+            <h2 class="text-center text-uppercase text-secondary mb-0">Experience</h2>
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-briefcase"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <div class="timeline">
+                <!-- Add your work experience items here -->
+                <div class="timeline-item">
+                    <h4>Senior Software Engineer</h4>
+                    <h5>Company Name (20XX - Present)</h5>
+                    <p>Description of your responsibilities and achievements</p>
                 </div>
-            </li>
-            <li class="d-flex align-items-start mb-4">
-                <img src="startbootstrap-freelancer-gh-pages/assets/img/halkbank.png" alt="PL/I Logo" class="portfolio-logo">
-                <div>
-                    <h3>Custom PL/I Batch Development</h3>
-                    <p>Developed a custom PL/I batch application for batch processing requests within the bank's infrastructure.</p>
-                </div>
-            </li>
-            <li class="d-flex align-items-start mb-4">
-                <img src="startbootstrap-freelancer-gh-pages/assets/img/haberturk.png" alt="Devtek Logo" class="portfolio-logo">
-                <div>
-                    <h3>TV Ratings Automation Project</h3>
-                    <p>Created an automation system for processing and displaying TV rating data using a combination of .NET, SQL, ASP.NET API, and Angular.</p>
-                </div>
-            </li>
-            <li class="d-flex align-items-start mb-4">
-                <img src="startbootstrap-freelancer-gh-pages/assets/img/haberturk.png" alt="Habertürk Logo" class="portfolio-logo">
-                <div>
-                    <h3>Data Processing System for Habertürk</h3>
-                    <p>Built a console application to fetch data from emails, process it with algorithms, and display it using Angular, enhancing decision-making capabilities.</p>
-                </div>
-            </li>
-            <li class="d-flex align-items-start mb-4">
-                <img src="startbootstrap-freelancer-gh-pages/assets/img/halkbank.png" alt=".NET Logo" class="portfolio-logo">
-                <div>
-                    <h3>.NET Development for Banking Solutions</h3>
-                    <p>Utilized .NET technologies to develop and maintain features within a banking software solution, focusing on frontend and backend integration.</p>
-                </div>
-            </li>
-            <li class="d-flex align-items-start mb-4">
-                <img src="path/to/software-engineering-logo.png" alt="Software Engineering Logo" class="portfolio-logo">
-                <div>
-                    <h3>Software Engineering and Problem Solving</h3>
-                    <p>Strong proficiency in programming languages like C++, Python, and Java, with experience in using analytical thinking and teamwork to solve complex problems.</p>
-                </div>
-            </li>
-        </ul>
-    </div>
-</section>
+                <!-- Add more experience items as needed -->
+            </div>
+        </div>
+    </section>
 
+    <!-- Projects Section -->
+    <section class="page-section bg-light" id="projects">
+        <div class="container">
+            <h2 class="text-center text-uppercase text-secondary mb-0">Projects</h2>
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-code-branch"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <div class="row">
+                <!-- Project Item 1 -->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="path/to/project1-image.jpg" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Name</h5>
+                            <p class="card-text">Project description and technologies used</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more project items as needed -->
+            </div>
+        </div>
+    </section>
 
+    <!-- Blog Section -->
+    <section class="page-section" id="blog">
+        <div class="container">
+            <h2 class="text-center text-uppercase text-secondary mb-0">Blog</h2>
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-pencil-alt"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <div class="row">
+                <!-- Blog Post 1 -->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Blog Post Title</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Date</h6>
+                            <p class="card-text">Brief excerpt from the blog post...</p>
+                            <a href="#" class="card-link">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more blog posts as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="page-section bg-light" id="contact">
+        <div class="container">
+            <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-envelope"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-7">
+                    <form id="contactForm">
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="name" type="text" placeholder="Enter your name...">
+                            <label for="name">Full name</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="email" type="email" placeholder="name@example.com">
+                            <label for="email">Email address</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" id="message" style="height: 10rem" placeholder="Enter your message here..."></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                        <button class="btn btn-primary btn-xl" type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Bootstrap JS Bundle -->
     <script src="startbootstrap-freelancer-gh-pages/js/scripts.js"></script>
